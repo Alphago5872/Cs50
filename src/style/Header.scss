@@ -1,0 +1,12 @@
+.header {
+  padding: 1rem;
+  padding-left: 2rem;
+  background-color: lightblue;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+
+  &__contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
