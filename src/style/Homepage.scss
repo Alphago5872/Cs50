@@ -1,0 +1,15 @@
+.homepage {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: 1fr 1fr;
+
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img {
+
+  }
+}

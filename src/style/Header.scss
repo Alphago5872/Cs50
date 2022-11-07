@@ -5,8 +5,35 @@
   display: grid;
   grid-template-columns: 0.5fr 1fr;
 
+  @media screen and (max-width: 992px) {
+    grid-template-columns: 1fr;
+    h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
   &__contents {
     display: grid;
+    color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    &--link {
+      display: flex;
+      size: 10rem;
+      color: black;
+      float: center;
+      align-items: center;
+      
+      text-decoration: none;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 992px) {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+    }
+
   }
 }
