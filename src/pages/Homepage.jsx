@@ -22,7 +22,7 @@ const Homepage = () => {
 
       <h1>
         Anyone who finishes the quiz will be rewarded with a fine one cubic feet
-        of O2 gas
+        of Oxygen Gas :D
       </h1>
 
       <img

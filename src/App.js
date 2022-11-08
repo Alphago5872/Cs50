@@ -7,11 +7,13 @@ import My_current_goals from './pages/My_current_goals';
 import My_hobbies from './pages/My_hobbies';
 import Homepage from './pages/Homepage';
 import { Routes, Route } from 'react-router-dom';
+import Dropdown_option from './component/Dropdown_option';
 
 function App() {
   return (
     <div>
       <Header />
+      
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/About_me' element={<About_me />} />

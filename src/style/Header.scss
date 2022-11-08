@@ -4,6 +4,13 @@
   background-color: lightblue;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
+  grid-gap: 1rem;
+
+  &__link {
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: black;
+  }
 
   @media screen and (max-width: 992px) {
     grid-template-columns: 1fr;
@@ -22,6 +29,7 @@
     &--link {
       display: flex;
       size: 10rem;
+      font-size: 1.3rem;
       color: black;
       float: center;
       align-items: center;
